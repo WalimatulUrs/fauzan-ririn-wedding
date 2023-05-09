@@ -7,8 +7,8 @@ export const GOOGLE_MAPS_LINK = `https://goo.gl/maps/2cwgA7tYSsai28SQA`;
 /**
  * Wedding time
  */
-export const EPOCH_WEDDING_TIME = 1628384400;
-export const UTC_WEDDING_TIME = '2021-08-8:09:00:00Z';
+export const EPOCH_WEDDING_TIME = 1683986400;
+export const UTC_WEDDING_TIME = '2023-05-13:14:00:00Z';
 
 export const INVITATIONS = [
  { id: '72fbe93a-b352-11e8-96f8-529269fb1459', name: 'ITEC Group' },

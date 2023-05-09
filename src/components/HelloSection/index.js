@@ -12,7 +12,7 @@ function HelloSection({ invitedPeople }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h2>
-              <h3 className="sub-title hs">8 Agustus 2021, Di Rumah Kami, Dusun Ireng Lauk, Gunungsari, Lombok Barat </h3>
+              {/* <h3 className="sub-title hs">8 Agustus 2021, Di Rumah Kami, Dusun Ireng Lauk, Gunungsari, Lombok Barat </h3> */}
               <p className="info">
                 Dengan memohon Rahmat Allah Azza Wa Jalla, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk
                 rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan keberkahan dan
@@ -24,9 +24,9 @@ function HelloSection({ invitedPeople }) {
             <div className="col-lg-5 col-md-5">
               <div className="couple-half">
                 <div className="desc-groom">
-                  <h3 className="main-font">Fulan Panjang</h3>
+                  <h3 className="main-font">Ahmad Fauzan S.Pd</h3>
                   <p className="parent-name parent-name__top">
-                    Putra Bapak Fulan <br />& Ibu Fulanah
+                    Putra Bapak H. Mahmud <br />& Ibu Hj Nurrohmah
                   </p>
                 </div>
               </div>
@@ -37,9 +37,9 @@ function HelloSection({ invitedPeople }) {
             <div className="col-lg-5 col-md-5">
               <div className="couple-half">
                 <div className="desc-bride">
-                  <h3 className="main-font">Fulanah</h3>
+                  <h3 className="main-font">Ririn Novita Sari S.Pd</h3>
                   <p className="parent-name">
-                    Putri Bapak Fulan <br />& Ibu Fulanah
+                    Putri Bapak Zainuri Ahmad AW <br />& Ibu Ibu Mariyam
                   </p>
                 </div>
               </div>

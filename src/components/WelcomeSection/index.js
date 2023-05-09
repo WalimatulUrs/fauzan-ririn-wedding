@@ -62,7 +62,7 @@ function WelcomeSection({ location, invitedPeople, isAnonymGuest, onClickDetail 
             <div className="col-md-8 col-md-offset-2 text-center">
               <img src={WeddingImg} alt="wedding-eby-ulfana" />
               <h4 className="sub-title">The Wedding of</h4>
-              <h1 className="title">Fulan &amp; Fulanah</h1>
+              <h1 className="title">Fauzan &amp; Ririn</h1>
               <CountContainer />
               {renderGuestSection()}
             </div>

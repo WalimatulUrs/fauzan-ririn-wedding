@@ -20,17 +20,17 @@ function WeddingSection() {
             <div className="col-md-10 col-md-offset-1">
               <WeddingInfoBox
                 title="Akad Nikah"
-                time="09:00 WITA"
-                date="Ahad, 8 Agustus 2021"
-                description="Lokasi Acara : Sebelah PT. Binawan Inti Utama Dusun Ireng Lauk Gunungsari Lobar"
-                mobileDescription="Sebelah PT. Binawan Inti Utama <br />Dusun Ireng Lauk Gunungsari Lobar"
+                time="14:00 WITA"
+                date="Sabtu, 13 Mei 2023"
+                description="Lokasi Acara : ..."
+                mobileDescription="Sebelah ..."
               />
               <WeddingInfoBox
                 title="Walimah"
-                time="09:00 WITA - Selesai"
-                date="Ahad, 8 Agustus 2021"
-                description="Lokasi Acara : Sebelah PT. Binawan Inti Utama Dusun Ireng Lauk Gunungsari Lobar"
-                mobileDescription="Sebelah PT. Binawan Inti Utama <br />Dusun Ireng Lauk Gunungsari Lobar"
+                time="09:30 WITA - Selesai"
+                date="Ahad, 14 Mei 2023"
+                description="Lokasi Acara : ..."
+                mobileDescription="Sebelah ..."
               />
             </div>
           </div>
