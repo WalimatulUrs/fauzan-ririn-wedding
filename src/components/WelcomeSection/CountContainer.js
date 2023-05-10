@@ -7,7 +7,7 @@ function CountContainer() {
   const { days, hours, minutes, seconds } = useDateCountdown();
 
   return (
-    <div className="col-md-12" css={styMargin('0 0 16px 0')}>
+    <div css={styMargin('0 0 16px 0')}>
       <CountItem text="Days" number={days} />
       <CountItem text="Hours" number={hours} />
       <CountItem text="Minutes" number={minutes} />

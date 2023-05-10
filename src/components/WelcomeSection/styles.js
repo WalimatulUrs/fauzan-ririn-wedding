@@ -238,6 +238,7 @@ export const styWrapperCount = css`
   @media screen and (max-width: 380px) {
     width: 55px;
     height: 55px;
+    margin: 2px;
 
     h3 {
       margin-top: 12px;
