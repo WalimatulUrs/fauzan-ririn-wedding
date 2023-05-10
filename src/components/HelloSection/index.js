@@ -39,7 +39,7 @@ function HelloSection({ invitedPeople }) {
                 <div className="desc-bride">
                   <h3 className="main-font">Ririn Novita Sari S.Pd</h3>
                   <p className="parent-name">
-                    Putri Bapak Zainuri Ahmad AW <br />& Ibu Ibu Mariyam
+                    Putri Bapak Zainuri Ahmad AW <br />& Ibu Mariyam
                   </p>
                 </div>
               </div>

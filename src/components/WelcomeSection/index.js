@@ -1,5 +1,5 @@
 import WeddingImg from '@assets/images/wedding-logo.png';
-import { bool, func, object } from 'prop-types';
+import { bool, func, object, string } from 'prop-types';
 import React, { Fragment, useState } from 'react';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
@@ -42,7 +42,7 @@ function WelcomeSection({ location, invitedPeople, isAnonymGuest, onClickDetail 
     return (
       <Fragment>
         <h2 className="to-dearest">To our Dearest</h2>
-        <h2 className="to-dearest-name">{invitedPeople.name}</h2>
+        <h2 className="to-dearest-name">{invitedPeople}</h2>
       </Fragment>
     );
   };
@@ -77,7 +77,7 @@ function WelcomeSection({ location, invitedPeople, isAnonymGuest, onClickDetail 
 }
 
 WelcomeSection.propTypes = {
-  invitedPeople: object.isRequired,
+  invitedPeople: string.isRequired,
   isAnonymGuest: bool.isRequired,
   location: object.isRequired,
   onClickDetail: func.isRequired,

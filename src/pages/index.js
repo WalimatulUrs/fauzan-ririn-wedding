@@ -8,15 +8,13 @@ import LocationSection from '@components/LocationSection';
 import WeddingSection from '@components/WeddingSection';
 import WelcomeSection from '@components/WelcomeSection';
 import getQueryValue from '@helpers/getQueryValue';
-import Invitations from 'data/invitations';
 import { object } from 'prop-types';
 import React, { Fragment, useState } from 'react';
 // import FloatingMusic from '@components/FloatingMusic/Loadable';
 
 function Home({ location }) {
-  const invitationCode = decodeURIComponent(getQueryValue(location, 'invitation_code') || '');
-  const isAnonymGuest = invitationCode === '';
-  const invitedPeople = Invitations.find(v => v.id === invitationCode)
+  const invitationName = decodeURIComponent(getQueryValue(location, 'name') || '');
+  const isAnonymGuest = invitationName === '';
 
   const [showDetailContent, setShowDetailContent] = useState(false);
 
@@ -29,10 +27,7 @@ function Home({ location }) {
 
     return (
       <Fragment>
-        <HelloSection invitedPeople={
-          invitedPeople || {
-            name: "Opps sorry, you are not in list"
-          }} />
+        <HelloSection invitedPeople={invitationName || "Opps sorry, you are not in list"} />
         <WeddingSection />
         <LocationSection />
         <FooterSection isAnonymGuest={isAnonymGuest} />
@@ -44,11 +39,7 @@ function Home({ location }) {
     <MainLayout>
       <WelcomeSection
         location={location}
-        invitedPeople={
-          invitedPeople || {
-            name: "Opps sorry, you are not in list"
-          }
-        }
+        invitedPeople={invitationName || "Opps sorry, you are not in list"}
         isAnonymGuest={isAnonymGuest}
         onClickDetail={handleClickDetail}
       />

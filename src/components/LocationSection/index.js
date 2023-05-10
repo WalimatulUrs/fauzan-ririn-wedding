@@ -23,14 +23,14 @@ function LocationSection() {
                   <strong>Buka Google Maps</strong>
                 </a>
                 <br />
-                Sebelah PT. Binawan Inti Utama Dusun Ireng Lauk, Gunungsari, Lombok Barat
+                Masjid Bait Al Islam Dusun Egok Desa Suka Makmur Kec. Gerung Lombok Barat
               </p>
             </div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.4547441113027!2d116.08469491478324!3d-8.552194793852506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdc055b0fe8b25%3A0x2f64eca04019fe8!2sPT.%20Binawan%20Inti%20Utama!5e0!3m2!1sen!2sid!4v1627746029296!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d570.2914308188465!2d116.0977027246319!3d-8.662720996573746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf19c3df87ad%3A0x55a664429c698596!2sMASJID%20BAITUL%20ISLAM%20EGOK%20SELATAN!5e0!3m2!1sen!2sid!4v1683727645071!5m2!1sen!2sid"
                 width="100%"
                 height="450"
                 frameBorder="0"
