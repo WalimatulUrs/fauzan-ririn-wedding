@@ -56,7 +56,7 @@ function WelcomeSection({ location, invitedPeople, isAnonymGuest, onClickDetail 
         css={styBackground}
         data-stellar-background-ratio="0.5"
       >
-        <div className="overlay"></div>
+        {/* <div className="overlay"></div> */}
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">

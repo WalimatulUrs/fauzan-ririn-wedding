@@ -23,14 +23,14 @@ function LocationSection() {
                   <strong>Buka Google Maps</strong>
                 </a>
                 <br />
-                Masjid Bait Al Islam Dusun Egok Desa Suka Makmur Kec. Gerung Lombok Barat
+                SD Negeri 03 Suka Makmur Desa Suka Makmur Kec. Gerung Lobar
               </p>
             </div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d570.2914308188465!2d116.0977027246319!3d-8.662720996573746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf19c3df87ad%3A0x55a664429c698596!2sMASJID%20BAITUL%20ISLAM%20EGOK%20SELATAN!5e0!3m2!1sen!2sid!4v1683727645071!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d986.0757068581238!2d116.09823930222252!3d-8.662723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbe8361531e05%3A0xc5eb1d2b9f01ffb4!2sSDN%203%20SUKA%20MAKMUR!5e0!3m2!1sen!2sid!4v1683736044431!5m2!1sen!2sid"
                 width="100%"
                 height="450"
                 frameBorder="0"

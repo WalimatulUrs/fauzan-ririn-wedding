@@ -2,7 +2,7 @@ import { css } from '@emotion/core';
 
 export const styWrapper = css`
   ${'' /* background-image: url(${Background}); */}
-  background-color: #ECA3F5;
+  background-color: #87CBB9;
   background-size: cover;
   background-position: center;
   width: 100%;
