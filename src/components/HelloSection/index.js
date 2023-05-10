@@ -32,7 +32,7 @@ function HelloSection({ invitedPeople }) {
               </div>
             </div>
             <div className="col-lg-2 col-md-2" style={{display: "table", margin: "0 auto"}}>
-              <img src={FulanFulanah} alt="groom" className="img-responsive" loading="lazy" style={{ filter: "drop-shadow(0 6px 6px rgba(0, 0, 0, 0.5))", margin: '-20px 0 12px 0', transform: 'scaleX(-1)', width: "auto", maxHeight: "170px" }} />
+              <img src={FulanFulanah} alt="groom" className="img-responsive" loading="lazy" style={{ filter: "drop-shadow(0 6px 6px rgba(0, 0, 0, 0.5))", margin: "8px 0 8px 0", transform: 'scaleX(-1)', width: "auto", maxHeight: "170px" }} />
             </div>
             <div className="col-lg-5 col-md-5">
               <div className="couple-half">
