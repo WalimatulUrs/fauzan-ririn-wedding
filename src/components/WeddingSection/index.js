@@ -29,8 +29,8 @@ function WeddingSection() {
                 title="Walimah"
                 time="09:30 WITA - Selesai"
                 date="Ahad, 14 Mei 2023"
-                description="Lokasi Acara : Halaman SD Negri 03 Suka Makmur Desa Suka Makmur Kec. Gerung Lobar"
-                mobileDescription="Lokasi Acara : Halaman SD Negri 03 Suka Makmur Desa Suka Makmur Kec Gerung Lobar"
+                description="Lokasi Acara : Halaman SD Negeri 03 Suka Makmur Desa Suka Makmur Kec. Gerung Lobar"
+                mobileDescription="Lokasi Acara : Halaman SD Negeri 03 Suka Makmur Desa Suka Makmur Kec Gerung Lobar"
               />
             </div>
           </div>
