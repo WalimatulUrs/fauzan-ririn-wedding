@@ -1,4 +1,4 @@
-import FulanFulanah from '@assets/images/people1-no-bg.png';
+import FulanFulanah from '@assets/images/fauzan-ririn.png';
 import React, { Fragment } from 'react';
 import { styWrapper } from './styles';
 
